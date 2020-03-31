@@ -5,13 +5,14 @@ contributors:
     - ["Abel Salgado Romero", "https://twitter.com/abelsromero"]
 translators:
     - ["Ale46", "https://github.com/ale46"]
+    - ["Simone Dotto", "https://www.linuxguru.it"]
 lang: it-it
 filename: asciidoc-it.md
 ---
 
 AsciiDoc è un linguaggio di markup simile a Markdown e può essere usato per qualsiasi cosa, dai libri ai blog. Creato nel 2002 da Stuart Rackman, questo linguaggio è semplice ma permette un buon numero di personalizzazioni.
 
-Intestazione Documento
+Intestazioni del documento
 
 Le intestazioni sono opzionali e possono contenere linee vuote. Deve avere almeno una linea vuota rispetto al contenuto.
 
@@ -23,7 +24,7 @@ Solo titolo
 Prima frase del documento.
 ```
 
-Titolo ed Autore
+Titolo e autore
 
 ```
 = Titolo documento
@@ -41,7 +42,7 @@ John Doe <john@go.com>; Jane Doe<jane@yo.com>; Black Beard <beardy@pirate.com>
 Inizio di un documento con autori multipli.
 ```
 
-Linea di revisione (richiede una linea autore)
+Linea di revisione (è richiesta una linea autore)
 
 ```
 = Titolo documento V1
@@ -62,7 +63,7 @@ Per creare una riga vuota aggiungi un +
 e riceverai una interruzione di linea!
 ```
 
-Formattazione Testo
+Formattazione testo
 
 ```
 _underscore crea corsivo_
@@ -89,7 +90,7 @@ Titoli di sezione
 
 Liste
 
-Per creare un elenco puntato, utilizzare gli asterischi.
+Per creare un elenco puntato si usano gli asterischi.
 
 ```
 * foo
@@ -97,7 +98,7 @@ Per creare un elenco puntato, utilizzare gli asterischi.
 * baz
 ```
 
-Per creare un elenco numerato usa i periodi.
+Per creare un elenco numerato si usano i punti.
 
 ```
 . item 1
@@ -105,7 +106,7 @@ Per creare un elenco numerato usa i periodi.
 . item 3
 ```
 
-È possibile nidificare elenchi aggiungendo asterischi o periodi aggiuntivi fino a cinque volte.
+È possibile annidare elenchi, aggiungendo asterischi o punti, fino a cinque livelli.
 
 ```
 * foo 1
@@ -123,7 +124,7 @@ Per creare un elenco numerato usa i periodi.
 
 ## Ulteriori letture
 
-Esistono due strumenti per elaborare i documenti AsciiDoc:
+Esistono due strumenti per elaborare documenti AsciiDoc:
 
 1. [AsciiDoc](http://asciidoc.org/): implementazione Python originale, disponibile nelle principali distribuzioni Linux. Stabile e attualmente in modalità di manutenzione.
 2. [Asciidoctor](http://asciidoctor.org/): implementazione alternativa di Ruby, utilizzabile anche da Java e JavaScript. In fase di sviluppo attivo, mira ad estendere la sintassi AsciiDoc con nuove funzionalità e formati di output.
